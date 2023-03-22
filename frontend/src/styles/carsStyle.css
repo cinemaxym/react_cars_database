@@ -1,0 +1,46 @@
+/* Cars Style CSS document */
+
+/* h1 styling */
+h1 {
+    text-align: center;
+}
+
+/* main container styling */
+.main-container {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+}
+
+/* main container section styling */
+.main-container>section {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+/* main container aside styling */
+.main-container>aside {
+    width: 30%;
+
+}
+
+/* car container styling */
+section .car-container {
+    padding: 1rem;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 10px;
+    height: 20rem;
+}
+
+/* form container styling */
+.form-container {
+    border: solid 1px rgba(128, 128, 128, 0.628);
+    padding: 2rem;
+    border-radius: 2%;
+    margin-bottom: 10px;
+}
+
