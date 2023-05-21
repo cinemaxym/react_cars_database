@@ -9,7 +9,7 @@ app.use(express.json()); // Set up middleware to parse incoming JSON data
 app.use('/api', apiRoutes); // Mount the API routes to the '/api' endpoint
 
 // Connect to the MongoDB database using the provided connection string
-mongoose.connect('mongodb+srv://cinemaxym:0IfsKSdl0LOdJXeA@cluster0.chobkzo.mongodb.net/cars?retryWrites=true&w=majority')
+mongoose.connect('mongodb+srv://')
 .then(() => console.log('Connected to MongoDB')) // Log a success message if the connection is successful
 .catch((error) => // Log an error message if the connection fails
 console.log('Error connecting to MongoDB:', error.message));
